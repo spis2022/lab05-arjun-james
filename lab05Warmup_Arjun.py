@@ -47,11 +47,7 @@ def invert_block(im):
             (red, green, blue) = im.getpixel((x, y))
 
             im.putpixel((x, y), (255 - red, 255 - green, 255 - blue))
-            # Complete this function by adding your lines of code here.
-
-            # You need to calculate the new pixel values and then to change them
-
-            # in the image using putpixel()
+            
 
 
 invert(bear)

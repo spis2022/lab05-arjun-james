@@ -45,4 +45,5 @@ def invert_block( im ):
 
 
 invert_block(bear)
+
 bear.save("tmp_James.png") # create/overwrite tmp_Name.png with current image
